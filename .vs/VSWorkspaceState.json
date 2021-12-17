@@ -4,8 +4,9 @@
     "\\Tariff",
     "\\Tariff\\Tariff",
     "\\Tariff\\Tariff\\model",
+    "\\Tariff\\Tariff\\Presenter",
     "\\Tariff\\Tariff\\View"
   ],
-  "SelectedNode": "\\Tariff\\Tariff\\model\\Assistant.cs",
+  "SelectedNode": "\\Tariff\\Tariff.sln",
   "PreviewInSolutionExplorer": false
 }

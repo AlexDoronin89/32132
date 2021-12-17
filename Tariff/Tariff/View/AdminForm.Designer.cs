@@ -149,7 +149,7 @@ namespace Tariff
             // maskedTextBoxGygabytes
             // 
             this.maskedTextBoxGygabytes.Location = new System.Drawing.Point(289, 18);
-            this.maskedTextBoxGygabytes.Mask = "00000";
+            this.maskedTextBoxGygabytes.Mask = "000";
             this.maskedTextBoxGygabytes.Name = "maskedTextBoxGygabytes";
             this.maskedTextBoxGygabytes.Size = new System.Drawing.Size(139, 20);
             this.maskedTextBoxGygabytes.TabIndex = 17;
@@ -157,7 +157,7 @@ namespace Tariff
             // maskedTextBoxMinutes
             // 
             this.maskedTextBoxMinutes.Location = new System.Drawing.Point(288, 48);
-            this.maskedTextBoxMinutes.Mask = "00000";
+            this.maskedTextBoxMinutes.Mask = "0000";
             this.maskedTextBoxMinutes.Name = "maskedTextBoxMinutes";
             this.maskedTextBoxMinutes.Size = new System.Drawing.Size(140, 20);
             this.maskedTextBoxMinutes.TabIndex = 17;
@@ -165,7 +165,7 @@ namespace Tariff
             // maskedTextBoxMessages
             // 
             this.maskedTextBoxMessages.Location = new System.Drawing.Point(288, 75);
-            this.maskedTextBoxMessages.Mask = "00000";
+            this.maskedTextBoxMessages.Mask = "0000";
             this.maskedTextBoxMessages.Name = "maskedTextBoxMessages";
             this.maskedTextBoxMessages.Size = new System.Drawing.Size(140, 20);
             this.maskedTextBoxMessages.TabIndex = 17;

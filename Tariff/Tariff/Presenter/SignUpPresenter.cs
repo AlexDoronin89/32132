@@ -12,7 +12,7 @@ namespace Tariff.Presenter
     {
         private TariffData _model;
         private FormSigningUp _view;
-
+        
         public SignUpPresenter(TariffData model, FormSigningUp view)
         {
             _model = model;
@@ -33,8 +33,9 @@ namespace Tariff.Presenter
 
         private void OnOpeningMainForm()
         {
+            Assistant tariffAssistant = new Assistant(_model);
             FormTariffAssistant view = new FormTariffAssistant();
-            MainPresenter mainPresenter = new MainPresenter(_model, view);
+            MainPresenter mainPresenter = new MainPresenter(_model, view,tariffAssistant);
             view.ShowDialog();
         }
     }
